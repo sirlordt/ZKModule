@@ -1,0 +1,14 @@
+<zk>
+<groupbox title="remote frame" width="100%" height="800px" apply="ZKModule.CRemoteFrameControllerJar">
+ 
+ <vlayout spacing="10px">
+      <hlayout spacing="10px"> 
+       <button id="btnRemoteButton" image="~./ZKModule/images/CasualUserMale-16x16.png" Label="Start timer..." />
+       <button id="btnClearCount" image="~./ZKModule/images/male.png" Label="Clear count..." />
+      </hlayout> 
+     <listbox id="ListBox1" width="200px" rows="20" />
+ </vlayout>
+ 
+  <timer id="timer1" delay="2000" repeats="true"/>
+</groupbox>
+</zk>
